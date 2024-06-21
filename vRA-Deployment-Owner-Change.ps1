@@ -15,8 +15,8 @@ Disclaimer:  This script was obtained from https://github.com/cybersylum
 ##
 ## Define Environment Variables
 ##
-$vRAServer = "lab-vra.cybersylum.com"
-$vRAUser = "kinger@cybersylum.com"
+$vRAServer = "vra.company.com"
+$vRAUser = "user@company.com"
 $DateStamp=Get-Date -format "yyyyMMdd"
 $TimeStamp=Get-Date -format "hhmmss"
 $RunLog = "vRA-Deployment-Owner-Change-$DateStamp-$TimeStamp.log"
