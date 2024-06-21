@@ -34,7 +34,7 @@ to set Group as owner
     NewOwner = "group@domain.com" - ie: vRA-Deployments@mycompany.com
     NewOwnerType = "AD_GROUP"
 #>
-$NewOwner = "vRA-Deployments@cybersylum.com"
+$NewOwner = "vRA-Deployments@company.com"
 $NewOwnerType = "AD_GROUP"
 
 # Rate Limiting controls to avoid overloading the Automation server.  This operation will update all resources included in a deployment and can be taxing
